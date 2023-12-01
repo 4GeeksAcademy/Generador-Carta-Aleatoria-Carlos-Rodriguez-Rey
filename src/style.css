@@ -1,5 +1,5 @@
 body {
-  background: gray;
+  background: green;
 }
 .card {
   display: inline-block;
@@ -32,5 +32,19 @@ body {
     padding-top: 170px;
     padding-left: 100px;
     font-size: 75px;
+  }
+
+  .spades {
+    content: "\2663";
+  }
+
+  .club {
+    content: "\2663";
+  }
+  .heart {
+    content: "\2665";
+  }
+  .diamond {
+    content: "\2666";
   }
 }
